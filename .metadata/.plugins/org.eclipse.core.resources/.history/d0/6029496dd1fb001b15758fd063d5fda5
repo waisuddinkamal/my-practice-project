@@ -1,0 +1,31 @@
+package ClassPractice;
+
+import java.util.Iterator;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+		System.out.println("\n********************************");
+		int[][][] data = new int[2][15][3];
+		int num = 1;
+		for (int[][] table : data) {
+			for (int[] row : table) {
+				for (int cell : row) {
+					cell = num++;
+
+				}
+			}
+		}
+
+		for (int table = 0; table < data.length; table++) {
+			for (int row = 0; row < data[table].length; row++) {
+				for (int cell = 0; cell < data[table][row].length; cell++) {
+					
+					System.out.println(data[table][row][cell]);
+				}
+			
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+package ClassPractice;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+
+		String name = "waisuddin";
+		int i = name.length()-1;
+		while (i>=0) {
+			System.out.println(name.charAt(i--));
+		}
+	
+		
+	}
+}

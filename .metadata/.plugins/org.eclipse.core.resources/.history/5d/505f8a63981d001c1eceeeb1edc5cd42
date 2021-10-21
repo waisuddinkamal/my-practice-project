@@ -1,0 +1,81 @@
+package ClassPractice;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+		int num = 12345;
+
+		System.out.println(numberReverse(num));
+
+		int num1 = 121;
+		System.out.println(numPlindrome(num1));
+
+		String names = "wais";
+		System.out.println(nameReversSBuffer(names));
+
+		String name2 = "Afghanistan";
+		System.out.println(nameReverse(name2));
+
+		String oddNumOfstring = "program";
+		System.out.println(oddNUmberOfstring(oddNumOfstring));
+
+	}
+
+	public static StringBuffer nameReversSBuffer(String str) {
+
+		StringBuffer sb = new StringBuffer(str);
+		return sb.reverse();
+
+	}
+
+	public static int numberReverse(int num) {
+		int rev = 0;
+		while (num != 0) {
+			rev = rev * 10 + num % 10;
+			num = num / 10;
+		}
+
+		return rev;
+	}
+
+	public static int numPlindrome(int num) {
+		int rev = 0, temp, reminder;
+		temp = num;
+		while (num != 0) {
+			reminder = num % 10;
+			rev = rev * 10 + reminder;
+			num = num / 10;
+		}
+		if (temp == rev) {
+			System.out.println("Number is Plindrome: ");
+		} else {
+			System.out.println("Number is not Plindrome: ");
+		}
+
+		return temp;
+
+	}
+
+	public static String nameReverse(String str) {
+		String rev = "";
+		for (int i = str.length() - 1; i >= 0; i--) {
+			// rev+=str.charAt(i);
+			rev = rev + str.charAt(i);
+
+		}
+
+		return rev;
+
+	}
+
+	public static String oddNUmberOfstring(String str) {
+		for (int i = str.length() - 1; i >= 0; i--) {
+			if (Integer.parseInt("" + str.charAt(i)) % 2 != 0) {
+				return str.substring(0, i + 1);
+
+			}
+		}
+		return "";
+	}
+
+}

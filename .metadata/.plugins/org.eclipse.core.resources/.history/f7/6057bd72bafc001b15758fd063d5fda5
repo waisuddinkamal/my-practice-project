@@ -1,0 +1,19 @@
+package ClassPractice;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+	
+		String name = "kaml";
+		System.out.println(name.length());
+		if(name.length()%2!=0) {
+		for(int i = name.length()-1;i>=0;i--) 
+			System.out.print(name.charAt(i));
+		}
+			
+		}
+
+	}
+
+
+

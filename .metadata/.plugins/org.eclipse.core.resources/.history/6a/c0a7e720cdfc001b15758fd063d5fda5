@@ -1,0 +1,14 @@
+package ClassPractice;
+
+public class PracticseAndClean {
+
+	public static void main(String[] args) {
+		
+
+		for(char l = 'a';l<='z';l++) {
+			System.out.print(l+" ");
+		
+	}
+
+}
+}

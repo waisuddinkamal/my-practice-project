@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="com.tekschool.us.retail.hawks" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.TestRunner" time="13.369">
+    <testsuite name="Test feature for lab" time="9.788">
+      <testcase name="Test Case" classname="Test feature for lab" time="9.788"/>
+    </testsuite>
+    <testsuite name="Login to Retail Website" time="3.581">
+      <testcase name="Retail website Login test" classname="Login to Retail Website" time="3.581"/>
+    </testsuite>
+  </testsuite>
+</testrun>

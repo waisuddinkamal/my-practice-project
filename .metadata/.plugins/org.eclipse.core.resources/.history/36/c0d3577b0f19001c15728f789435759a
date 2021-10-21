@@ -1,0 +1,23 @@
+package School_InterviewQuestions;
+
+public class MethodSum_With_Additional_Logics {
+
+	public static void main(String[] args) {
+
+		freedomSum(1, 10, 2);
+		// 1,2,3
+		// 1,2,10
+		// 1,10,2
+
+	}
+	public static void freedomSum(int a , int b , int c) {
+		
+		if(c==10) {
+			System.out.println(a+b);
+		} else if(b==10) {
+			System.out.println(a);
+		}else if(a!=10) {
+			System.out.println(a+b+c);
+		}
+	}
+}

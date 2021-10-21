@@ -1,0 +1,10 @@
+Feature: Open Amazon Website
+
+  @SomkTest
+  Scenario: Amazon Home Search Bar
+    Given user is on amazone website
+    When user click on the search bar 'Book'
+    And user cilck on search button
+    Then user sould confirm the search result
+
+  

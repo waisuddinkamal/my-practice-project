@@ -1,0 +1,19 @@
+Feature: Open Amazon Website
+
+  @SomkTest
+  Scenario: Amazon Home Search Bar
+    Given user is on amazone website
+    When user click on the search bar
+    And user inter the item name 'book'
+    And user cilck on search button
+    Then user sould confirm the search result
+
+  Scenario Outline: Title of your scenario outline
+    Given I want to write a step with <name>
+    When I check for the <value> in step
+    Then I verify the <status> in step
+
+    Examples: 
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |

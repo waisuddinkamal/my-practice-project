@@ -1,0 +1,17 @@
+package pageObjects;
+
+import org.openqa.selenium.support.PageFactory;
+
+import core.Base;
+
+public class TestRegisterObject extends Base{
+	
+	
+	public TestRegisterObject() {
+		
+		PageFactory.initElements(driver, this);
+	}
+	
+	@FindBy(Xpath ")
+
+}

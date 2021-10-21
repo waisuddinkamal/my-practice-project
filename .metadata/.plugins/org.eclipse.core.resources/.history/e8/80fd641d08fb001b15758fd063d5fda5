@@ -1,0 +1,62 @@
+package ClassPractice;
+
+import java.util.Iterator;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+		// 12 25 15
+		// 14 85 41
+		// 78 97 42
+		// 74 85 41
+		int[][] a = new int[4][3];
+
+		a[0][0] = 12;
+		a[0][1] = 25;
+		a[0][2] = 15;
+		a[1][0] = 14;
+		a[1][1] = 85;
+		a[1][2] = 41;
+		a[2][0] = 78;
+		a[2][1] = 97;
+		a[2][2] = 42;
+		a[2][2] = 74;
+		a[2][2] = 85;
+		a[2][2] = 41;
+
+		for (int i = 0; i < a.length; i++) {
+			for (int j = 0; j < a[i].length; j++) {
+				System.out.print(a[i][j]+" ");
+			}
+			System.out.println();
+
+		}
+		/// create a two dimension array with name nums with data type of int with size of 10 x 10
+		// then create a two dimension loop that goes through the array and assign a value to each index
+		// the values should be 1 - 100 on first row
+		// 201 - 300 on the second row
+		// etc... 	
+		// nums[i][j] = 1;
+		
+		// when its done, create another nested loop to go through and print it
+		
+		int [][] nums = new int [10][10];
+		int number = 1;
+		for (int i = 0; i < nums.length; i++) {
+			for (int j = 0; j < nums[i].length; j++) {
+				nums [i][j] = number++;
+				
+				
+			}
+			
+		}
+		for (int i = 0; i < nums.length; i++) {
+			for (int j = 0; j < nums[i].length; j++) {
+				System.out.println(nums[i][j]+"\t");
+				
+			}
+			
+		}
+	}
+
+}

@@ -1,0 +1,36 @@
+package stepDefinitions;
+
+import core.Base;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class SearchStepDef extends Base{
+	@Given("user is on amazone website")
+	public void user_is_on_amazone_website() {
+	    
+	}
+
+	@When("user click on the search bar")
+	public void user_click_on_the_search_bar() {
+	   
+	}
+
+	@And("I check for the {String} in step")
+	public void i_check_for_the_in_step(String itemValue) {
+	 
+	}
+
+	@And("user cilck on search button")
+	public void user_cilck_on_search_button() {
+	 
+	}
+
+	@Then("user sould confirm the search result")
+	public void user_sould_confirm_the_search_result() {
+	    
+	}
+
+	
+}

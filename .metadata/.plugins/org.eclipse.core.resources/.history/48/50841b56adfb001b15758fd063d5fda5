@@ -1,0 +1,22 @@
+package ClassPractice;
+
+import java.util.Iterator;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+		int[] num = { 15, 5, 13, 5, 1, 4, 2, 5, 36, 3, 4, 2 };
+		int maxNumber = num[0];
+		for (int i = 0; i < num.length; i++) {
+
+			if (num[i] > maxNumber) {
+				maxNumber = num[i];
+			}
+		}
+		System.out.println("the MaxNumber is: " + maxNumber);
+
+	}
+
+	
+}

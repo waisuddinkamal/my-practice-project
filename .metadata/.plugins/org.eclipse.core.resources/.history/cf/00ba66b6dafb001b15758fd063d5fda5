@@ -1,0 +1,26 @@
+package ClassPractice;
+
+public class FindingTheLargestNumberOfarray {
+
+	public static void main(String[] args) {
+		int[] num = { 15, 5, 13, 5, 1,5,7,8, 4, 2, 5, 36, 3, 4, 2 };
+		int minNumber = num[0];
+		for (int i = 0; i < num.length; i++) {
+
+			if (num[i] < minNumber) {
+				minNumber = num[i];
+			}
+			
+			int maxnumber = num[0];
+			for (int j = 0; j < num.length; j++) {
+				maxnumber = num[i];
+				
+			}
+		}
+		System.out.println("the minnumber is: " + maxnumber);
+		System.out.println("The Largest Number is: " + minNumber);
+
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package stepDefinitions;
+
+import core.Base;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class TestStepDef extends Base{
+	@When("user search for {string}")
+	public void user_search_for(String string) {
+	  
+	}
+	@Then("iphone sould be displayed")
+	public void iphone_sould_be_displayed() {
+	
+	}
+}

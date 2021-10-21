@@ -1,0 +1,36 @@
+package ClassPractice;
+
+import java.util.Iterator;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+		// 12 25 15
+		// 14 85 41
+		// 78 97 42
+		// 74 85 41
+		int[][] a = new int[4][3];
+
+		a[0][0] = 12;
+		a[0][1] = 25;
+		a[0][2] = 15;
+		a[1][0] = 14;
+		a[1][1] = 85;
+		a[1][2] = 41;
+		a[2][0] = 78;
+		a[2][1] = 97;
+		a[2][2] = 42;
+		a[2][2] = 74;
+		a[2][2] = 85;
+		a[2][2] = 41;
+
+		for (int i = 0; i < a.length; i++) {
+			for (int j = 0; j < a[i].length; j++) {
+				System.out.print(a[i][j]+" ");
+			}
+			System.out.println();
+
+		}
+	}
+
+}

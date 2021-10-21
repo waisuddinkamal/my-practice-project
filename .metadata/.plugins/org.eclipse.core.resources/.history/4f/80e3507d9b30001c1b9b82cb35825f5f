@@ -1,0 +1,21 @@
+package runner;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		
+		features = "classpath:feature",
+		glue = "stepDefinitions",
+		tags = "@smoketest",
+		dryRun = false,
+		monochrome = true,
+		strict = true,
+		plugin = {"pretty"},
+		publish = true
+	
+		)
+
+
+public class SearchRunner {
+
+
+}

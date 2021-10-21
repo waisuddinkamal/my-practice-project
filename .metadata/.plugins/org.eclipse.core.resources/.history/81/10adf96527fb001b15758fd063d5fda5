@@ -1,0 +1,30 @@
+package ClassPractice;
+
+import java.util.Iterator;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+		/// create a two dimension array with name nums with data type of int with size of 10 x 10
+		// then create a two dimension loop that goes through the array and assign a value to each index
+		// the values should be 1 - 100 on first row
+		// 201 - 300 on the second row
+		// etc... 	
+		// nums[i][j] = 1;
+		
+		// when its done, create another nested loop to go through and print it
+		
+		
+		int [][] data = new int [10][10];
+		
+		for (int i = 0; i < data.length; i++) {
+			for (int j = 0; j < data[i].length; j++) {
+				System.out.println(data[i]);
+			}
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,62 @@
+package stepDefinitions;
+
+import core.Base;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import pageObjects.TestRegisterObject;
+
+public class RegisterStepDef extends Base {
+
+	TestRegisterObject testRegister = new TestRegisterObject();
+
+	@When("user click on Register")
+	public void user_click_on_register() {
+
+	}
+
+	@When("user enter the First Name {string}")
+	public void user_enter_the_first_name(String string) {
+		
+		
+	}
+
+	@When("user enter the Last Name {string}")
+	    public void user_enter_the_last_name(String string) {
+	        
+	}
+	
+	@When("user enter the email {string}")
+	public void user_enter_the_email(String string) {
+
+	}
+
+	@When("user enter the telephone {string}")
+	public void user_enter_the_telephone(String string) {
+	
+	}
+
+	@When("user enter the Password {string}")
+	public void user_enter_the_password(String string) {
+
+	}
+
+	@When("user enter Password Confirm {string}")
+	public void user_enter_password_confirm(String string) {
+	
+	}
+
+	@When("Subscribe should check no by default")
+	public void subscribe_should_check_no_by_default() {
+
+	}
+
+	@When("user check the Privacy Policy")
+	public void user_check_the_privacy_policy() {
+
+	}
+
+	@Then("user click on Continue button")
+	public void user_click_on_continue_button() {
+
+	}
+}

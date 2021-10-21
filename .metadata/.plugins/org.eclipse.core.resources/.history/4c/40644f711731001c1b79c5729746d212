@@ -1,0 +1,39 @@
+package stepDefinitions;
+
+
+import org.junit.Assert;
+
+import core.Base;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import pageObject.SearchPageObject;
+
+public class SearchStepDef extends Base {
+
+	SearchPageObject SearchObject = new SearchPageObject();
+	
+	@Given("user is on amazone website")
+	public void user_is_on_amazone_website() {
+		//String actualPageTitile = driver.getTitle();
+		String expectedPageTitle = "Amazon.com. Spend less. Smile more.";
+		//Assert.assertEquals(expectedPageTitle, actualPageTitile);
+	}
+	
+	@When("user inter the item name {string}")
+	public void user_inter_the_item_name(String itemValue) {
+		SearchObject.searchItems(itemValue);
+	}
+
+	@And("user cilck on search button")
+	public void user_cilck_on_search_button() {
+		SearchObject.searchButton();
+	}
+
+	@Then("user sould confirm the search result")
+	public void user_sould_confirm_the_search_result() {
+		SearchObject.searchValidation();
+	}
+}
+

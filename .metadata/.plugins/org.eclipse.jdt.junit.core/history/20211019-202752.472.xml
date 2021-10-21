@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="com.tekschool.us.retail.hawks" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="runner.TestRunner" time="13.307">
+    <testsuite name="Register new user" time="13.307">
+      <testcase name="Create new user account in Test Environment" classname="Register new user" time="13.307">
+        <error>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)&#13;
+	at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)&#13;
+	at pageObjects.RegisterPageObject.enterLastName(RegisterPageObject.java:60)&#13;
+	at stepDefinitions.RegisterStepDefinition.user_fill_registration_form_with_below_information(RegisterStepDefinition.java:33)&#13;
+	at ✽.user fill registration form with below information(classpath:features/retailHome.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

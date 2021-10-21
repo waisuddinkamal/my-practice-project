@@ -1,0 +1,8 @@
+package pageObjects;
+
+import core.Base;
+
+public class TestRegister extends Base{
+	
+
+}

@@ -1,0 +1,45 @@
+package pageObject;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import core.Base;
+
+public class SearchPageObject extends Base {
+
+	public SearchPageObject() {
+		PageFactory.initElements(driver, this);
+	}
+	
+	@FindBy(id = "twotabsearchtextbox")
+	private WebElement searchBox;
+
+	@FindBy(id = "nav-search-submit-button")
+	private WebElement searchButton;
+
+	@FindBy(xpath = "//span[text()='What a Time to Be Alice!']")
+	private WebElement searchValidate;
+
+	public void searchBar() {
+		searchBox.click();
+
+		
+	}
+	public void interValue(String searchValue) {
+		searchBox.sendKeys(searchValue);
+		
+	}
+
+	public void searchButton() {
+		searchButton.click();
+	}
+
+	public boolean searchValidate() {
+		if (searchValidate.isDisplayed())
+			return true;
+		else
+			return false;
+	}
+
+}

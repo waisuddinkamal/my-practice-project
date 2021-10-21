@@ -1,0 +1,44 @@
+package ClassPractice;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+		String name = "mom";
+		String rev = "";
+
+		for (int i = name.length() - 1; i >= 0; i--) {
+
+			rev = rev + name.charAt(i);
+		}
+		if (name.equals(rev)) {
+			System.out.println("Then name is Palindrome");
+
+		} else {
+			System.out.println("The name is not palindrome");
+
+		}
+		System.out.println("-------------------------------");
+		int n = 123;
+		int r = 0;
+		int s = 0;
+		int t = n;
+		
+		while (n>0) {
+			r= n %10;
+			n=n /10;
+			s=s*10+r;
+		}
+			if (n==t) {
+				System.out.println(n+" is palindrome");
+			}else {
+				System.out.println(n+" is not palindrime");
+			}
+			
+			
+			
+		}
+
+	}
+
+}

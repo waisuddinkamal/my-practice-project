@@ -1,0 +1,29 @@
+package ClassPractice;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+		// i want to loop 1 - 100
+		// if the number is divisible by 3 print TEK
+		// if the number is divisible by 5 print School
+		// if the number is divisible by 3 and 5 print TEK School
+		// if not divisible by 3 or 5 then print the number
+		
+		for(int i = 1; i <=100 ; i++) {
+			
+			if (i %3==0) {
+				System.out.println(i+" TEK");
+				if (i %5==0) {
+					System.out.println(i+" School");
+					if(i %3==0 && i %5==0) {
+						System.out.println(i+" TEK School");
+						if(i %3!=0&& i %5!=0) {
+							System.out.println(i+" Condation Not match");
+						}
+					}
+				}
+			}
+		}
+	}
+}

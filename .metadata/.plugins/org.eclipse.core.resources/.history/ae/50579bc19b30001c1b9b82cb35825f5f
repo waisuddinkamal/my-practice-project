@@ -1,0 +1,11 @@
+Feature: Open Amazon Website
+
+  @smoketest
+  Scenario: Amazon Home Search Bar
+    Given user is on amazone website
+    When user click on the search bar 
+    And user inter the item name'Book'
+    And user cilck on search button
+    Then user sould confirm the search result
+
+  

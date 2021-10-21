@@ -1,0 +1,17 @@
+Feature: Test Register Account
+
+	@smokeTest
+  Scenario: Retail website register test
+    Given user is on Retail website
+    When user click on Myaccount
+    And user click on Register
+    And user enter the First Name
+    And	user enter the Last Name
+    And user enter the E-Mail
+    And user enter the Telephone
+    And user enter the Password
+    And user enter Password Confirm
+    And Subscribe should check no by default
+    And user check the Privacy Policy 
+    Then user click on Continue button 
+    

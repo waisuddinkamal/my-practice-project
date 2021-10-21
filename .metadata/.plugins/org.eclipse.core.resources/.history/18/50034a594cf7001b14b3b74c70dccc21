@@ -1,0 +1,17 @@
+package ClassPractice;
+
+public class Multiplication_Table_ForLoop {
+
+	public static void main(String[] args) {
+
+		// Program to Print Multiplication Table
+
+		int t = 3;
+		for (int i = 1; i <= 10; i++) {
+			
+			System.out.println("Multiplication Table"+"\n"+i + " X " + t + " = " + t * i);
+		}
+
+	}
+
+}

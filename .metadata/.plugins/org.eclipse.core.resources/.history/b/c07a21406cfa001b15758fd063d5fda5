@@ -1,0 +1,20 @@
+package ClassPractice;
+
+import java.util.Iterator;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+		
+		int []a = {10,29,30,40};
+		for (int i :a) {
+			System.out.println(a[i]);
+		}
+			
+		}
+		
+	
+	}
+
+
+

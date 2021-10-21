@@ -1,0 +1,64 @@
+package ClassPractice;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+		int days = 9;
+
+		switch (days) {
+		case 1:
+			System.out.println("Monday");
+			break;
+		case 2:
+			System.out.println("Tuseday");
+			break;
+		case 3:
+			System.out.println("Wednsday");
+			break;
+		case 4:
+			System.out.println("Thursday");
+			break;
+		case 5:
+			System.out.println("Friday");
+			break;
+		case 6:
+			System.out.println("Saturday");
+			break;
+
+		default:
+			System.out.println("Sunday");
+
+		}
+
+		double daysOfTheWeek = 4;
+		if (daysOfTheWeek == 1) {
+			System.out.println("Monday");
+		} else if (daysOfTheWeek == 2) {
+			System.out.println("Tuseday");
+		} else if (daysOfTheWeek == 3) {
+			System.out.println("Wednsday");
+		} else if (daysOfTheWeek == 4) {
+			System.out.println("Thursday");
+		} else if (daysOfTheWeek == 5) {
+			System.out.println("Friday");
+		} else if (daysOfTheWeek == 6) {
+		} else {
+			System.out.println("Sunday");
+		}
+			
+//			int i = 0;
+//			while (i!=10) {
+//				i=i+1;
+//				System.out.println(i);
+			
+	
+			int i1 = 0;
+			while (i1!=0) {
+				i1=i1+1;
+				System.out.println(i1);
+				
+			}
+	}
+
+}

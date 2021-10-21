@@ -1,0 +1,62 @@
+package stepDefinitions;
+
+import core.Base;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import pageObjects.TestRegister;
+
+public class RegisterStepDef extends Base{
+	
+	TestRegister testRegister = new TestRegister();
+	
+	@When("user click on Register")
+	public void user_click_on_register() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("user enter the First Name")
+	public void user_enter_the_first_name() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("user enter the Last Name")
+	public void user_enter_the_last_name() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("user enter the email")
+	public void user_enter_the_email() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("user enter the telephone")
+	public void user_enter_the_telephone() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("user enter the Password")
+	public void user_enter_the_password() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("user enter Password Confirm")
+	public void user_enter_password_confirm() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("Subscribe should check no by default")
+	public void subscribe_should_check_no_by_default() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("user check the Privacy Policy")
+	public void user_check_the_privacy_policy() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Then("user click on Continue button")
+	public void user_click_on_continue_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+}

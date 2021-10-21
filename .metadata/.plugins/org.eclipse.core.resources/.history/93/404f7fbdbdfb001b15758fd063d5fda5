@@ -1,0 +1,19 @@
+package ClassPractice;
+
+import java.util.Iterator;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+		for (int i = 1; i < 5; i++) { // Outer Loop - rows
+			for (int j = 0; j < i; j++) { // Inner Loop - cols
+				System.out.print("* ");
+			}
+			System.out.println();
+				}
+
+	}
+
+	
+}

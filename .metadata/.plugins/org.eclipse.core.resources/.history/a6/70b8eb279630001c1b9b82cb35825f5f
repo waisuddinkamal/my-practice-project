@@ -1,0 +1,26 @@
+package runner;
+
+import org.junit.runner.RunWith;
+import core.Base;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		
+		features = "Classpath:feature",
+		glue = "stepDefinitions",
+		tags = "@SomkTest",
+		dryRun = false,
+		monochrome = true,
+		strict = true,
+		plugin = {"pretty"},
+		publish = true
+	
+		)
+
+
+public class SearchRunner {
+
+
+}

@@ -1,0 +1,26 @@
+package ClassPractice;
+
+import java.util.Iterator;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+		String name = "tisting";
+		System.out.println(name.length()); // This statement is to know the odd and even number Of String length
+
+		if (name.length() % 2 == 0) {
+			for (int i = name.length() - 1; i >= 0; i--) {
+				System.out.print(name.charAt(i));
+			}
+
+		} else if (name.length() % 2 != 0) {
+			String newname = name.substring(0, name.length() - 1);
+			for (int i = newname.length() - 1; i >= 0; i--) {
+				System.out.print(newname.charAt(i));
+			}
+
+		}
+
+	}
+}

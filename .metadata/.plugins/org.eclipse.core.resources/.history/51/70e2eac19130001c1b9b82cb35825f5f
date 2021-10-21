@@ -1,0 +1,7 @@
+package pageObject;
+
+import core.Base;
+
+public class SearchPageObject extends Base{
+
+}

@@ -1,0 +1,18 @@
+package ClassPractice;
+
+public class temp {
+
+	public static void main(String[] args) {
+		
+		
+		for(char l = 'a';l<='z';l++) {
+			System.out.print(l+" ");
+		
+			
+	}if ('a'<'z'+1) {
+		System.out.print(",");
+	}
+		
+
+}
+}

@@ -1,0 +1,15 @@
+package ClassPractice;
+
+public class ForLoopNamConversion {
+
+	public static void main(String[] args) {
+
+		// Name convention by for loop
+		String name = "kamal";
+		for (int i = 4; i >= 0;) {
+			System.out.print(name.charAt(i--));
+
+		}
+
+	}
+}

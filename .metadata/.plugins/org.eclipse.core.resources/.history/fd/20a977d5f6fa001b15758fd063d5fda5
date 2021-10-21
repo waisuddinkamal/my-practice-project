@@ -1,0 +1,22 @@
+package ClassPractice;
+
+import java.util.Iterator;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+		String rev = "book";
+
+		for (int i = rev.length() - 1; i >= 0; i--) {
+			System.out.print(rev.charAt(i));
+			
+			if (rev.length()==0) {
+				System.out.print(rev.charAt(i));
+			}
+				
+			}
+		}
+
+	}
+

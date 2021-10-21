@@ -1,0 +1,13 @@
+package pageObjects;
+
+import org.openqa.selenium.support.PageFactory;
+
+import core.Base;
+
+public class DesktopsPageObject extends Base {
+	
+	DesktopsPageObject(){
+		PageFactory.initElements(driver, this);
+	}
+
+}

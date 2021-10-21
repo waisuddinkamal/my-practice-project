@@ -1,0 +1,43 @@
+package pageObjects;
+
+import javax.xml.xpath.XPath;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import core.Base;
+
+public class HomePageObject extends Base{
+	
+	public HomePageObject() {
+		PageFactory.initElements(driver, this);
+	}
+	
+	
+	@FindBy(xpath = "(//img[@alt='iPhone 6'])[2]")
+	private WebElement iphone6MovableImage;
+	@FindBy(xpath = "(//img[@alt='MacBookAir'])[2]")
+	private WebElement mackBookAirMovableImage;
+	
+	@FindBy(xpath = "//input[@name='search']")
+	private WebElement searchField;
+	@FindBy(xpath = "//input[@name='search']")
+	private WebElement searchbutton;
+	
+	@FindBy(xpath = "//img[@title='MacBook']")
+	private WebElement macBookImage;
+	@FindBy(xpath = "//a[text()='MacBook']")
+	private WebElement macBookText;
+	
+	@FindBy(xpath = "//img[@title='iPhone']")
+	private WebElement iphoneImage;
+	@FindBy(xpath = "//a[text()='iPhone']")
+	private WebElement iphoneText;
+	
+	@FindBy(xpath = "//img[@title='Apple Cinema 30\"']")
+	private WebElement AppleCinema_30;
+	
+	
+
+}

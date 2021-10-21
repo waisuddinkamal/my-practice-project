@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\waisu\.eclipse\org.eclipse.oomph.jreinfo"/>
+			<item value="D:\eclipes backup\EclipseBackup"/>
+			<item value="D:\eclipes backup\LabSesion"/>
+			<item value="D:\eclipes backup\SelfStudy"/>
+			<item value="C:\Users\waisu\.eclipse\HawksClassbackup"/>
+			<item value="C:\Users\waisu\.eclipse\self_Study"/>
+			<item value="C:\Users\waisu\eclipse\self_Study"/>
+			<item value="D:\eclipes backup"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

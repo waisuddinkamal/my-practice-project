@@ -1,0 +1,41 @@
+package stepDefinitions;
+
+import core.Base;
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Then;
+import pageObjects.RegisterPageObject;
+import utilities.UtilityClass;
+
+public class RegisterStepDefinition extends Base {
+	
+	RegisterPageObject registerPage = new RegisterPageObject();
+
+	@And("user click on Register")
+	public void user_click_on_register() {
+		registerPage.clickOnRegister();
+		logger.info("User clocked on Register");
+		UtilityClass.takeScreenShot();
+	}
+
+	@And("user fill registration form with below information")
+	public void user_fill_registration_form_with_below_information(DataTable dataTable) {
+
+	}
+
+	@And("user agree to privacy and policy")
+	public void user_agree_to_privacy_and_policy() {
+
+	}
+
+	@And("user click on continue button")
+	public void user_click_on_continue_button() {
+
+	}
+
+	@Then("user should see successful message {string}")
+	public void user_should_see_successful_message(String string) {
+
+	}
+
+}

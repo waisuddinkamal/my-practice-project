@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SearchRunner" project="com.amazon" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.SearchRunner" time="9.415">
+    <testsuite name="Amazon Website Search Test" time="9.415">
+      <testcase name="Amazon Home Search Bar" classname="Amazon Website Search Test" time="9.415"/>
+    </testsuite>
+  </testsuite>
+</testrun>

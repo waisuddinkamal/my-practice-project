@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SearchRunner" project="com.amazon" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="runner.SearchRunner" time="0.283">
+    <testsuite name="Amazon Website Search Test" time="0.283">
+      <testcase name="Amazon Home Search Bar" classname="Amazon Website Search Test" time="0.283">
+        <error>java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "stepDefinitions.SearchStepDef.driver" is null&#13;
+	at stepDefinitions.SearchStepDef.user_is_on_amazone_website(SearchStepDef.java:19)&#13;
+	at ✽.user is on amazone website(classpath:feature/search.feature:5)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

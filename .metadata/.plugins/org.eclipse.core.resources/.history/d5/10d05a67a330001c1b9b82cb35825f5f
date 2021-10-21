@@ -1,0 +1,17 @@
+package stepDefinitions;
+
+import org.junit.Assert;
+
+import core.Base;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+import pageObject.SearchPageObject;
+
+public class SearchStepDef extends Base {
+
+	SearchPageObject SearchObject = new SearchPageObject();
+
+}

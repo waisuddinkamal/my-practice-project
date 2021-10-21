@@ -1,0 +1,17 @@
+package ClassPractice;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+		for (int L = 1; L <= 5; L++) {
+			for (int e = 5; e >= L; e--) {
+				System.out.print("*");
+
+			}
+
+		}
+
+	}
+}
+

@@ -1,0 +1,16 @@
+package ClassPractice;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+		for (char c = 'A'; c <= 'Z'; c++) {
+			System.out.print(c + " ");
+		if (c<='N'-1) {
+			System.out.print(",");
+		}
+			
+		}
+
+	}
+}

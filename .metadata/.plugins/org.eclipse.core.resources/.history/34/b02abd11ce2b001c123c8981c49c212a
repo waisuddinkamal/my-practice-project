@@ -1,0 +1,17 @@
+package core;
+
+import java.util.Properties;
+
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+
+public class Base {
+	public static WebDriver driver;
+	public static Properties properties;
+	public static Logger logger;
+	private String propertyPath = ".\\src\\test\\resources\\input\\property.properties";
+	private String log4jPath = ".\\src\\test\\resources\\input\\log4j.properties";
+	
+	
+	
+}

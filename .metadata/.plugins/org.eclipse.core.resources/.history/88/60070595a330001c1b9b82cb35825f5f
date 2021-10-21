@@ -1,0 +1,10 @@
+package stepDefinitions;
+
+
+import pageObject.SearchPageObject;
+
+public class SearchStepDef extends Base {
+
+	SearchPageObject SearchObject = new SearchPageObject();
+
+}

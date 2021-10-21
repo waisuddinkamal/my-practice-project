@@ -1,0 +1,17 @@
+package ClassPractice;
+
+public class WhileLoopPractice {
+
+	public static void main(String[] args) {
+		
+		String text = "radar";
+		int i = 3;
+	
+		while (i >0){
+			System.out.println(i+text.charAt(i--));
+		}
+				
+		
+
+	}
+}

@@ -1,0 +1,66 @@
+package pageObjects;
+
+import javax.xml.xpath.XPath;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import core.Base;
+
+public class HomePageObject extends Base{
+	
+	public HomePageObject() {
+		PageFactory.initElements(driver, this);
+	}
+	
+	
+	@FindBy(xpath = "(//img[@alt='iPhone 6'])[2]")
+	private WebElement iphone6MovableImage;
+	@FindBy(xpath = "(//img[@alt='MacBookAir'])[2]")
+	private WebElement mackBookAirMovableImage;
+	
+	@FindBy(xpath = "//input[@name='search']")
+	private WebElement searchField;
+	@FindBy(xpath = "//input[@name='search']")
+	private WebElement searchbutton;
+	
+	@FindBy(xpath = "//img[@title='MacBook']")
+	private WebElement macBookImage;
+	@FindBy(xpath = "//a[text()='MacBook']")
+	private WebElement macBookText;
+	@FindBy(xpath = "(//span[text()='Add to Cart'])[1]")
+	private WebElement macBookAddToCart;
+	@FindBy(xpath = "(//button[@type='button'])[8]")
+	private WebElement macBookAddToWishList;
+	@FindBy(xpath = "(//button[@type='button'])[9]")
+	private WebElement macBookCompareThisProduct;
+	
+	@FindBy(xpath = "//img[@title='iPhone']")
+	private WebElement iphoneImage;
+	@FindBy(xpath = "//a[text()='iPhone']")
+	private WebElement iphoneText;
+	@FindBy(xpath = "//span[text()='Add to Cart']")
+	private WebElement iphoneAddToCart;
+	@FindBy (xpath = "(//button[@type='button'])[11]")
+	private WebElement iphoneAddToWishList;
+	@FindBy(xpath = "(//button[@type='button'])[12]")
+	private WebElement iphoneCompareThisProduct;
+	
+	@FindBy(xpath = "//img[@title='Apple Cinema 30\"']")
+	private WebElement appleCinemaImage;
+	@FindBy(xpath = "//a[text()='Apple Cinema 30\"']")
+	private WebElement appleCienmaText;
+	@FindBy(xpath = "(//button[@type='button'])[13]")
+	private WebElement appleCienmaAddToCart;
+	@FindBy(xpath = "(//button[@type='button'])[14]")
+	private WebElement appleCienmaAddToWishList;
+	
+	@FindBy(xpath = "//img[@title='Canon EOS 5D']")
+	private WebElement Canon_EOS_5D;
+	@FindBy(xpath = "//a[text()='Canon EOS 5D']")
+	private WebElement Canon_EOS_5D_Text;
+	
+	
+
+}

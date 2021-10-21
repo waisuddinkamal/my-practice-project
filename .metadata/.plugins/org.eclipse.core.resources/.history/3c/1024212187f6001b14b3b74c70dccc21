@@ -1,0 +1,17 @@
+package ClassPractice;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+		char c = 'a';
+		while (c <= 'z') {
+			System.out.print(c++ + " ");
+			if (c != 'z'+1) {
+				System.out.print(",");
+
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+package ClassPractice;
+
+import java.util.Iterator;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+		String name = "book";
+		for (int i = 4; i >= 0;) {
+			System.out.print(name.charAt(i--));
+	}
+}
+}
+

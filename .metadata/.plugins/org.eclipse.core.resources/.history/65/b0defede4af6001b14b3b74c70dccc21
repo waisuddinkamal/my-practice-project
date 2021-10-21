@@ -1,0 +1,16 @@
+package ClassPractice;
+
+public class WhileLoopPractice {
+
+	public static void main(String[] args) {
+		
+		String text = "abcde";
+		int i = 4;
+	
+		while (i <text.length()){
+			System.out.println(text.charAt(i--));
+		}
+				
+
+	}
+}

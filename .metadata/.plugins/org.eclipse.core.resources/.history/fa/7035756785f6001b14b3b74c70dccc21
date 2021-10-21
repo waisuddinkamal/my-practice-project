@@ -1,0 +1,63 @@
+package ClassPractice;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+		int p1 = 1;
+		while (p1 <= 5) {
+			System.out.println(p1++);
+
+		}
+		System.out.println("_____________________");
+
+		int p2 = 5;
+		while (p2 >= 1) {
+			System.out.println(p2--);
+		}
+		System.out.println("________________________________");
+
+		int p3 = 1;
+		while (p3 <= 5) {
+			System.out.print(p3++ + "\t");
+
+		}
+		System.out.println();
+		System.out.println("_______________________________");
+
+		int p4 = 5;
+		while (p4 >= 1) {
+			System.out.print(p4-- + "\t");
+		}
+		System.out.println();
+		System.out.println("__________________________________");
+
+		for (char c = 'A'; c <= 'Z'; c++) {
+			System.out.print(c + " ");
+		}
+		System.out.println();
+		System.out.println();
+		for (char c2 = 'Z'; c2 >= 'A'; c2--) {
+			System.out.print(c2 + " ");
+		}
+		System.out.println();
+		System.out.println();
+
+		char c = 'a';
+		while (c <= 'z') {
+			System.out.print(c++ + " ");
+		}
+		System.out.println();
+		System.out.println("++++++++++++++++++++++++++++");
+
+		String name = "frozan";
+		System.out.println(name.charAt(5));
+		System.out.println(name.length());
+		
+		
+		
+		
+		
+		}
+	}
+

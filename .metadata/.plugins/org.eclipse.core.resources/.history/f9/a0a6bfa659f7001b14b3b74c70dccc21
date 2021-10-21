@@ -1,0 +1,19 @@
+package ClassPractice;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+
+		
+		
+	
+		String n1 = "kamal";
+		int i = n1.length()-1;
+		for(int n = i;n>=i;n--) {
+			System.out.print(n1.charAt(n));
+		}
+		
+
+	}
+
+}

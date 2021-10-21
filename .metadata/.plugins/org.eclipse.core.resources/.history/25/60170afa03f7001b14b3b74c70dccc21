@@ -1,0 +1,14 @@
+package ClassPractice;
+
+public class PracticeAndClean {
+
+	public static void main(String[] args) {
+		String name ="kamal";
+		
+		int i=name.length();
+		while (i<0) {
+			System.out.print(name.charAt(i--));
+		
+		}
+	}
+}
